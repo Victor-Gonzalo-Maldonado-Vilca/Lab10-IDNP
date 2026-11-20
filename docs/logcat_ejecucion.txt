@@ -1,0 +1,30 @@
+11-20 16:23:33.427 I/NocturneWorker(11366): ENCOLADO OneTimeWorkRequest id=c2e83ce5-c2e3-4c1a-b12e-eb28c3bc143b retardo=5s
+11-20 16:23:33.522 I/NocturneWorker(11366): UI observa estado=ENQUEUED id=c2e83ce5-c2e3-4c1a-b12e-eb28c3bc143b
+11-20 16:23:38.434 D/WM-GreedyScheduler(11366): Starting tracking for c2e83ce5-c2e3-4c1a-b12e-eb28c3bc143b
+11-20 16:23:38.441 D/WM-ConstraintTracker(11366): BatteryNotLowTracker: initial state = false
+11-20 16:23:38.444 D/WM-ConstraintTracker(11366): StorageNotLowTracker: initial state = true
+11-20 16:23:38.447 D/WM-GreedyScheduler(11366): Constraints not met: Cancelling work ID WorkGenerationalId(workSpecId=c2e83ce5-c2e3-4c1a-b12e-eb28c3bc143b, generation=0)
+11-20 16:23:42.853 D/WM-BatteryNotLowTracker(11366): Received android.intent.action.BATTERY_OKAY
+11-20 16:23:42.859 D/WM-GreedyScheduler(11366): Constraints met: Scheduling work ID WorkGenerationalId(workSpecId=c2e83ce5-c2e3-4c1a-b12e-eb28c3bc143b, generation=0)
+11-20 16:23:42.873 D/WM-Processor(11366): Processor: processing WorkGenerationalId(workSpecId=c2e83ce5-c2e3-4c1a-b12e-eb28c3bc143b, generation=0)
+11-20 16:23:42.884 D/WM-WorkerWrapper(11366): Starting work for com.example.lab10workmanager.MantenimientoBibliotecaWorker
+11-20 16:23:42.885 I/NocturneWorker(11366): INICIO id=c2e83ce5-c2e3-4c1a-b12e-eb28c3bc143b origen=manual intento=1 hilo=DefaultDispatcher-worker-1
+11-20 16:23:42.915 I/NocturneWorker(11366): UI observa estado=RUNNING id=c2e83ce5-c2e3-4c1a-b12e-eb28c3bc143b
+11-20 16:23:42.957 D/WM-Processor(11366): Work WorkGenerationalId(workSpecId=c2e83ce5-c2e3-4c1a-b12e-eb28c3bc143b, generation=0) is already enqueued for processing
+11-20 16:23:43.300 D/NocturneWorker(11366): Verificada 1/10: Luz de medianoche (10 %)
+11-20 16:23:43.703 D/NocturneWorker(11366): Verificada 2/10: Ciudad dormida (20 %)
+11-20 16:23:44.108 D/NocturneWorker(11366): Verificada 3/10: Neón (30 %)
+11-20 16:23:44.512 D/NocturneWorker(11366): Verificada 4/10: Marea lenta (40 %)
+11-20 16:23:44.919 D/NocturneWorker(11366): Verificada 5/10: Constelaciones (50 %)
+11-20 16:23:45.325 D/NocturneWorker(11366): Verificada 6/10: Último tren (60 %)
+11-20 16:23:45.742 D/NocturneWorker(11366): Verificada 7/10: Brisa del Misti (70 %)
+11-20 16:23:46.148 D/NocturneWorker(11366): Verificada 8/10: Eclipse (80 %)
+11-20 16:23:46.565 D/NocturneWorker(11366): Verificada 9/10: Calles de sillar (90 %)
+11-20 16:23:46.969 D/NocturneWorker(11366): Verificada 10/10: Amanecer (100 %)
+11-20 16:23:46.972 I/NocturneWorker(11366): FIN OK id=c2e83ce5-c2e3-4c1a-b12e-eb28c3bc143b -> 20/11/2026 16:23:46 · manual · 10 pistas · 36 min 31 s
+11-20 16:23:46.974 I/WM-WorkerWrapper(11366): Worker result SUCCESS for Work [ id=c2e83ce5-c2e3-4c1a-b12e-eb28c3bc143b, tags={ com.example.lab10workmanager.MantenimientoBibliotecaWorker,mantenimiento } ]
+11-20 16:23:46.976 D/WM-Processor(11366): Processor c2e83ce5-c2e3-4c1a-b12e-eb28c3bc143b executed; reschedule = false
+11-20 16:23:46.979 D/WM-GreedyScheduler(11366): Stopping tracking for WorkGenerationalId(workSpecId=c2e83ce5-c2e3-4c1a-b12e-eb28c3bc143b, generation=0)
+11-20 16:23:46.984 D/WM-GreedyScheduler(11366): Cancelling work ID c2e83ce5-c2e3-4c1a-b12e-eb28c3bc143b
+11-20 16:23:47.026 I/NocturneWorker(11366): UI observa estado=SUCCEEDED id=c2e83ce5-c2e3-4c1a-b12e-eb28c3bc143b
+11-20 16:23:54.340 I/NocturneWorker(11366): PROGRAMADO PeriodicWorkRequest cada 6 h (minimo permitido: 15 min)
